@@ -13,6 +13,8 @@ Breaking changes:
 - [debug] renamed getter method `multiSesssion` to `multiSession` [#6698](https://github.com/eclipse-theia/theia/pull/6698)
 - [task] changed the data structure of `ProvidedTaskConfigurations.tasksMap` [#6718](https://github.com/eclipse-theia/theia/pull/6718)
 - [task] added `taskDefinitionRegistry` and `taskSourceResolver` to the constructor of `TaskRunQuickOpenItem` and `ConfigureBuildOrTestTaskQuickOpenItem` [#6718](https://github.com/eclipse-theia/theia/pull/6718)
+- Support VS Code icon and color theming. [#6475](https://github.com/eclipse-theia/theia/pull/6475)
+  - Use `theia-input`, `theia-select` and `theia-button` to style input/textarea, select and button elements correspondingly. Before such elements were styled in an ad-hoc manner.
 
 ## v0.13.0
 
